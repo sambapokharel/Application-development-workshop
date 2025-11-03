@@ -1,0 +1,14 @@
+C:\Users\sambb\Desktop\application development\workshop1\bin\Debug\net9.0\workshop1.exe
+C:\Users\sambb\Desktop\application development\workshop1\bin\Debug\net9.0\workshop1.deps.json
+C:\Users\sambb\Desktop\application development\workshop1\bin\Debug\net9.0\workshop1.runtimeconfig.json
+C:\Users\sambb\Desktop\application development\workshop1\bin\Debug\net9.0\workshop1.dll
+C:\Users\sambb\Desktop\application development\workshop1\bin\Debug\net9.0\workshop1.pdb
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\workshop1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\workshop1.AssemblyInfoInputs.cache
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\workshop1.AssemblyInfo.cs
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\workshop1.csproj.CoreCompileInputs.cache
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\workshop1.dll
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\refint\workshop1.dll
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\workshop1.pdb
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\workshop1.genruntimeconfig.cache
+C:\Users\sambb\Desktop\application development\workshop1\obj\Debug\net9.0\ref\workshop1.dll
