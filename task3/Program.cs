@@ -1,37 +1,30 @@
-﻿using System;
-using System.Globalization;
-
-class Program
+public class TypeConversion
 {
-    static void Main()
+    public static void Main()
     {
-        // declare and initialize variables
-        byte b = 255;
-        short s = -32768;
-        int i = 42;
-        long l = 1234567890123L;
-        float f = 3.14f;
-        double d = 2.71828;
-        decimal dec = 79.99M;
-        char c = 'A';
-        bool bo = true;
+        byte byteValue = 25;
+        short shortValue = 12;
+        int intValue = 42;
+        long longValue = 123456789L;
+        float floatValue = 5.75f;
+        double doubleValue = 9.99;
+        decimal decimalValue = 19.99M;
+        char charValue = 'A';
+        bool boolValue = true;
 
-        // conversions
-        string iAsString = i.ToString();
-        double parsedDouble = double.Parse("3.14", CultureInfo.InvariantCulture);
+        String strValue = Convert.ToString(intValue);
+        double convertedDouble = Convert.ToDouble("3.14");
 
-        // print variables with labels, types and values
-        Console.WriteLine($"byte   (b) : {b} (Type: {b.GetType()})");
-        Console.WriteLine($"short  (s) : {s} (Type: {s.GetType()})");
-        Console.WriteLine($"int    (i) : {i} (Type: {i.GetType()})");
-        Console.WriteLine($"long   (l) : {l} (Type: {l.GetType()})");
-        Console.WriteLine($"float  (f) : {f} (Type: {f.GetType()})");
-        Console.WriteLine($"double (d) : {d} (Type: {d.GetType()})");
-        Console.WriteLine($"decimal(dec): {dec} (Type: {dec.GetType()})");
-        Console.WriteLine($"char   (c) : {c} (Type: {c.GetType()})");
-        Console.WriteLine($"bool   (bo): {bo} (Type: {bo.GetType()})");
-        Console.WriteLine();
-        Console.WriteLine($"int -> string      : {iAsString} (Type: {iAsString.GetType()})");
-        Console.WriteLine($"\"3.14\" -> double  : {parsedDouble} (Type: {parsedDouble.GetType()})");
+        Console.WriteLine($"Byte: {byteValue}, type: {byteValue.GetType()}");
+        Console.WriteLine($"Short: {shortValue}, type: {shortValue.GetType()}");
+        Console.WriteLine($"Int: {intValue}, type: {intValue.GetType()}");
+        Console.WriteLine($"Long: {longValue}, type: {longValue.GetType()}");
+        Console.WriteLine($"Float: {floatValue}, type: {floatValue.GetType()}");
+        Console.WriteLine($"Double: {doubleValue}, type: {doubleValue.GetType()}");
+        Console.WriteLine($"Decimal: {decimalValue}, type: {decimalValue.GetType()}");
+        Console.WriteLine($"Char: {charValue}, type: {charValue.GetType()}");
+        Console.WriteLine($"Bool: {boolValue}, type: {boolValue.GetType()}");
+        Console.WriteLine($"Converted String: {strValue}, type: {strValue.GetType()}");
+        Console.WriteLine($"Converted Double: {convertedDouble}, type: {convertedDouble.GetType()}");
     }
 }
