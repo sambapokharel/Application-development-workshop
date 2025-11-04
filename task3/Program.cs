@@ -1,4 +1,5 @@
-﻿public class TypeConversion
+
+public class TypeConversion
 {
     public static void Main()
     {
@@ -26,5 +27,6 @@
         Console.WriteLine($"Bool: {boolValue}, type: {boolValue.GetType()}");
         Console.WriteLine($"Converted String: {strValue}, type: {strValue.GetType()}");
         Console.WriteLine($"Converted Double: {convertedDouble}, type: {convertedDouble.GetType()}");
+        
     }
 }
